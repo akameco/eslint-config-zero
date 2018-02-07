@@ -10,7 +10,7 @@
 ## Install
 
 ```
-$ npm install eslint-config-zero
+$ yarn add --dev eslint-config-zero
 ```
 
 ## Usage

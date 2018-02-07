@@ -11,6 +11,3 @@ cache:
 
 notifications:
   email: false
-
-script:
-  - yarn run test:ci

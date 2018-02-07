@@ -1,0 +1,47 @@
+{
+  "name": "eslint-config-zero",
+  "version": "0.0.0",
+  "description": "eslint zero config",
+  "license": "MIT",
+  "repository": "akameco/eslint-config-zero",
+  "author": "akameco <akameco.t@gmail.com> (akameco.github.io)",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "add-contributor": "all-contributors add",
+    "precommit": "yarn flow && lint-staged",
+    "fmt": "prettier --write '**/*.{js,json,md}'",
+    "flow": "flow",
+    "lint": "eslint .",
+    "test": "yarn lint"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "zero"
+  ],
+  "dependencies": {
+    "eslint-config-precure": "^2.3.0",
+    "ptils": "^0.2.0"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^4.10.1",
+    "eslint": "^4.17.0",
+    "flow-bin": "^0.65.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0",
+    "prettier": "^1.10.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.0.0"
+  }
+}

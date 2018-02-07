@@ -15,7 +15,7 @@ $ npm install eslint-config-zero
 
 ## Usage
 
-## Usage
+`.eslintrc`
 
 ```js
 {

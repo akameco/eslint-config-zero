@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zero",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "eslint zero config",
   "license": "MIT",
   "repository": "akameco/eslint-config-zero",
@@ -14,7 +14,9 @@
     "fmt": "prettier --write '**/*.{js,json,md}'",
     "flow": "flow",
     "lint": "eslint .",
-    "test": "yarn lint"
+    "test": "yarn lint",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "lint-staged": {
     "*.{js,json,md}": [
@@ -39,7 +41,9 @@
     "flow-bin": "^0.66.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.0",
-    "prettier": "^1.10.2"
+    "prettier": "^1.10.2",
+    "travis-deploy-once": "^4.3.4",
+    "semantic-release": "^12.4.1"
   },
   "peerDependencies": {
     "eslint": ">=4.0.0"

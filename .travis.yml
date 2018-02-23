@@ -4,7 +4,6 @@ node_js:
   - '8'
   - '6'
 cache:
-  yarn: true
   directories:
     - ~/.npm
 after_success:

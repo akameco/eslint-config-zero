@@ -4,8 +4,11 @@ node_js:
   - '8'
   - '6'
 cache:
+  yarn: true
   directories:
     - ~/.npm
+install:
+  - yarn install --ignore-engines
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
 branches:

@@ -32,18 +32,18 @@
     "zero"
   ],
   "dependencies": {
-    "eslint-config-precure": "^2.6.0",
+    "eslint-config-precure": "^2.7.0",
     "ptils": "^0.2.0"
   },
   "devDependencies": {
     "all-contributors-cli": "^4.11.1",
-    "eslint": "^4.19.0",
-    "flow-bin": "^0.68.0",
+    "eslint": "^4.19.1",
+    "flow-bin": "^0.72.0",
     "husky": "^0.14.3",
-    "lint-staged": "^7.0.0",
-    "prettier": "^1.11.1",
-    "semantic-release": "^15.1.2",
-    "travis-deploy-once": "^4.4.1"
+    "lint-staged": "^7.1.2",
+    "prettier": "^1.12.1",
+    "semantic-release": "^15.5.0",
+    "travis-deploy-once": "^5.0.0"
   },
   "peerDependencies": {
     "eslint": ">=4.0.0"

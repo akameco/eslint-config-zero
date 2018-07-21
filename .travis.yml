@@ -16,3 +16,6 @@ branches:
     - /^v\d+\.\d+\.\d+$/
 notifications:
   email: false
+branches:
+  only:
+    - master

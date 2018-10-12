@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zero",
-  "version": "0.0.0-development",
+  "version": "0.2.0",
   "description": "eslint zero config",
   "license": "MIT",
   "repository": "akameco/eslint-config-zero",
@@ -13,9 +13,7 @@
     "fmt": "prettier --write '**/*.{js,json,md}'",
     "flow": "flow",
     "lint": "eslint .",
-    "test": "yarn lint",
-    "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "test": "yarn lint"
   },
   "lint-staged": {
     "*.{js,json,md}": [

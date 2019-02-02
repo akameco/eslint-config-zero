@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "eslint-config-precure": "3.5.0",
-    "ptils": "0.2.0"
+    "ptils": "0.3.0"
   },
   "devDependencies": {
     "all-contributors-cli": "5.11.0",

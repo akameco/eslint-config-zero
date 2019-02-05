@@ -29,7 +29,7 @@
     "zero"
   ],
   "dependencies": {
-    "eslint-config-precure": "4.2.0",
+    "eslint-config-precure": "4.2.2",
     "ptils": "0.3.0"
   },
   "devDependencies": {

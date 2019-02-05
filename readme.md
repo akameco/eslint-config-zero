@@ -1,4 +1,11 @@
-# eslint-config-zero
+# Deprecated eslint-config-zero. Use [eslint-config-precure](https://github.com/akameco/eslint-config-precure)
+
+```diff
+{
+-  "extends": "zero"
++  "extends": "precure/auto"
+}
+```
 
 [![Build Status](https://travis-ci.org/akameco/eslint-config-zero.svg?branch=master)](https://travis-ci.org/akameco/eslint-config-zero)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
